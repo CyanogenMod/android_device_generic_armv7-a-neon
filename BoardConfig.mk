@@ -17,3 +17,5 @@ SMALLER_FONT_FOOTPRINT := true
 MINIMAL_FONT_FOOTPRINT := true
 # Some framework code requires this to enable BT
 BOARD_HAVE_BLUETOOTH := true
+
+WPA_SUPPLICANT_VERSION := VER_0_8_X
