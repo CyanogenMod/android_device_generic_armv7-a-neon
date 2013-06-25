@@ -13,6 +13,7 @@
 # limitations under the License.
 
 $(call inherit-product, build/target/product/mini.mk)
+$(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 
 PRODUCT_NAME := mini_armv7a_neon
 PRODUCT_DEVICE := armv7-a-neon
