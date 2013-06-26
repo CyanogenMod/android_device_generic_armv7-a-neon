@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The Android Open Source Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,13 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/generic/armv7-a-neon/mini_common.mk)
+$(call inherit-product, build/target/product/mini.mk)
+$(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 
-PRODUCT_NAME := mini_armv7a_neon
-PRODUCT_DEVICE := armv7-a-neon
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Mini for armv7-a-neon
-
-# default is nosdcard, S/W button enabled in resource
-DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
-PRODUCT_CHARACTERISTICS := nosdcard
