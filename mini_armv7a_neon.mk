@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, build/target/product/mini.mk)
+$(call inherit-product, device/generic/armv7-a-neon/mini_common.mk)
 
 PRODUCT_NAME := mini_armv7a_neon
 PRODUCT_DEVICE := armv7-a-neon
