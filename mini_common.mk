@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     Provision \
     Settings \
     SystemUI \
+    TeleService \
     TestingCamera \
     WAPPushManager \
     apache-xml \
