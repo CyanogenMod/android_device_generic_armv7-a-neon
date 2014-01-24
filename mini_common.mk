@@ -79,6 +79,7 @@ PRODUCT_PACKAGES += \
     pand \
     power.default \
     sdptool \
+    vibrator.default \
     wpa_supplicant.conf
 
 # This is not necessary for mini, but is for mini-emulator as it should
